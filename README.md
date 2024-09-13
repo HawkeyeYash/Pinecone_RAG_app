@@ -1,4 +1,4 @@
 # Pinecone_RAG_App
 
-##Docker Image:
+## Docker Image:
 ~ docker pull hawkeyeyash/resume-chatbot-app
