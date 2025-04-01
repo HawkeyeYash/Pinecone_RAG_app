@@ -7,12 +7,12 @@ import numpy as np
 from pinecone import ServerlessSpec
 
 # Initialize Pinecone and Cohere clients
-api_key = "8195b7e2-f5a8-4f29-84b5-f0d43bdcd888"
+api_key = ""
 pc = Pinecone(api_key=api_key)
 spec = ServerlessSpec(cloud='aws', region='us-east-1')
 index_name = 'resume-retrieval-augmentation-fast'
 
-cohere_client = cohere.Client('VoGQ1PX4QgbUh0v6ZfdK9QwNZVAIvBj7WUGHZv7a')
+cohere_client = cohere.Client('')
 
 def extract_text_from_pdf(file_path):
     text = ""
